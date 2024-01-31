@@ -1,0 +1,73 @@
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #172d51;
+    padding: 80px;
+}
+.footer{
+display: flex;
+}
+.ba img{
+width: 30px;
+height: 30px;
+}
+.bb{
+margin-left: 40px;
+margin-top: -25px;
+}
+.bye{
+width: 400px;
+color: rgb(184, 184, 184);
+}
+.bye p{
+margin-top: 20px;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bc img{
+margin-left: -20px;
+width: 200px;
+}
+.bang{
+display: flex;
+margin-left: 800px;
+gap: 80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bang h4{
+color: white;
+padding: 10px;
+}
+.bang a{
+color: rgb(184, 184, 184);
+text-decoration: none;
+}
+.bang a:hover{
+color: #eaf2ff;
+}
+.bang p{
+color: rgb(184, 184, 184);
+padding: 10px;
+}
+.lastletter{
+display: flex;
+gap: 600px;
+font-size: 18px;
+margin-top: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.copy{
+color: rgb(184, 184, 184);
+
+}
+.tem{
+color: #224fa1;
+}
+
+.footer .bang .item{
+    cursor: pointer;
+}
+
+.lastletter .tem{
+    cursor: pointer;
+}

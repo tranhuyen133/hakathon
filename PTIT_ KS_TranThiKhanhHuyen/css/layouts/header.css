@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 244, 236);
+    border-radius: 5%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    position: relative;
+}
+
+.header .navbar{
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header .navbar .logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo .logo-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.navbar .logo .company-name{
+    font-weight: 900;
+    width: 100px;
+    height: 20px;
+}
+
+.header .navbar .navbar-list{
+    color: rgb(90, 99, 108);
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar .navbar-list .navbar-item{
+    cursor: pointer;
+}
+
+.header .navbar .button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: rgb(24, 92, 58);
+    border-color: rgb(24, 92, 58);
+    cursor: pointer;
+}
+
+.header .section-hero{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.header .section-hero .personal{
+    display: flex;
+    width: 556px;
+    height: 848px;
+}
+
+
+.header .section-hero .introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 848px;
+    width: 700px;
+    gap: 10px;
+}
+
+.section-hero .introduction .job{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+}
+
+.section-hero .introduction .name{
+    display: flex;
+    color: lightslategray;
+}
+
+.section-hero .introduction .button{
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans',sans-serif;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgb(115, 212, 180);
+    border-radius: 5%;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .paint{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    top: 160px;
+    border: 0% 5% 5% 0% white;
+    box-shadow: lightgray 1px 1px;
+    font-size: 20px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+

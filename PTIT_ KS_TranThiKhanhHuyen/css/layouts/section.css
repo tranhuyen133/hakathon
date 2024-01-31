@@ -1,0 +1,278 @@
+
+.section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/* personal */
+.section .personal{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.personal-detail .h1{
+    display: flex;
+    font-size: 24px;
+    color: black;
+}
+
+.section .personal .personal-detail{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+.personal .personal-detail .icon{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.personal-detail .icon .image{ 
+    display: flex;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.personal-detail .icon .image3{
+    border: 1px solid black;
+}
+
+.personal .personal-detail{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+}
+
+.section .experience{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.section .experience .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section .experience .row2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section .experience .box{
+    display: flex;
+    width: 250px;
+    height:70px;
+    border: 1px solid lightgray;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.experience .icon{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.personal .personal-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 900;
+    gap: 5px;
+    width: 400px;
+}
+
+.personal .personal-details .content1{
+    text-align: end;
+    color: lightslategray;
+}
+
+/* my project */
+
+.section .my-project{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .my-project .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.my-project .title .button{
+    width: 90px;
+    height: 30px;
+    color: rgb(190, 193, 30);
+    background-color: rgb(222, 255, 222);
+    border-radius: 5%;
+    border: none;
+}
+
+.my-project .title .h1{
+    font-size: 30px;
+}
+
+.my-project .title .p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(92, 92, 92);
+}
+
+.section .my-project .category-list{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    border-bottom: 1px dotted black;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.my-project .category-list .category-item{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(92,92,92);
+    cursor: pointer;
+}
+
+.my-project .category-list .category-item:hover{
+    border-bottom: solid 5px rgb(38, 129, 38);
+}
+
+.section .get-in-touch {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+}
+.get-in-touch .left-part .h1{
+    font-size: 35px;
+}
+.get-in-touch .left-part .p{
+    font-size: 25px;
+    width: 550px;
+}
+
+.section .left-part{
+    height: 700px;
+}
+
+.get-in-touch .left-part .input{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+}
+
+.input .input-child .input-son{
+    width: 100%;
+    height: 50px;
+    border-color: lightgray;
+}
+
+.input .input-child .input-son::placeholder{
+    border-color: lightgray;
+}
+
+.left-part .input .sendMess{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(62, 186, 120);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.left-part .input .sendMess::placeholder{
+    color: lightgray;
+}
+
+.section .get-in-touch .right-part{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-in-touch .right-part .call-me{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    border-bottom: dotted 1px lightgray;
+    width: 300px;
+}
+
+.get-in-touch .right-part .contract{
+    display: flex;
+    width: 150px;
+}
+
+.right-part .call-me .material-symbols-outlined{
+    background-color: rgb(232, 232, 232);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.get-in-touch .right-part .mail-me{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+}
+
+.right-part .mail-me .material-symbols-outlined{
+    background-color: rgb(232, 232, 232);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.section .get-in-touch .last-ones{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
